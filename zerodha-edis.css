@@ -1,0 +1,24 @@
+.chart-wrapper .chart-container { flex-direction: column; }
+.chart-wrapper .chart-container #cus-click { display: flex; width: 100%; justify-content: center; }
+.app-nav { display: flex; justify-content: space-evenly; align-items: center; }
+#cus-click { color: yellow; font-size: 16px; }
+.app .container .container-left .marketwatch-wrap,
+.instruments, .omnisearch,
+.marketwatch-selector list-flat,
+.marketwatch-sidebar .marketwatch-selector { width: 400px !important; }
+.app .wrapper { max-width: 100% !important; }
+.container-left{ flex: 0 0 405px !important; }
+div#fo-Calc { display: flex; justify-content: space-between; flex-direction: column; }
+.cal-f { display: flex; justify-content: space-between; align-items: center; }
+div#fo-Calc h3.page-title.small { margin: 0; padding: 0;margin-bottom: 20px; }
+svg#calc { height: 45px; width: 45px; fill: #fff; cursor: pointer;}
+.overall-view { display: flex; justify-content: center; margin: 0 auto; }
+.ov-left,.ov-right { margin: 0 15px; display: flex; align-items: center; }
+.ov-left span.title,
+.ov-right span.title { font-size: 15px; font-weight: bold; font-family: inherit;}
+.ov-text { margin: 0 10px; font-size: 12px;line-height: 1px;}
+.app .header .header-left{ flex: 0 0 400px !important; }
+.app .header .logo { margin: 0 10px 0 10px !important;}
+.branded.svg.postion-analysis{font-size: 10px;}
+.branded.svg.postion-analysis img{ margin-right: 2px; }
+.pinned-instruments .instrument-widget { display: flex !important; flex-direction: column !important;}
