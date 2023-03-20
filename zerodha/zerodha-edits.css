@@ -1,4 +1,4 @@
-.chart-wrapper .chart-container { flex-direction: column; }
+.chart-wrapper .chart-container { flex-wrap: wrap; }
 .chart-wrapper .chart-container #cus-click { display: flex; width: 100%; justify-content: center; }
 .app-nav { display: flex; justify-content: space-evenly; align-items: center; }
 #cus-click { color: yellow; font-size: 16px; }
@@ -23,3 +23,4 @@ svg#calc { height: 45px; width: 45px; fill: #fff; cursor: pointer;}
 .branded.svg.postion-analysis img{ margin-right: 2px; }
 .pinned-instruments .instrument-widget { display: flex !important; flex-direction: column !important;}
 .app .header .header-left .pinned-instruments { padding: 0 0px;}
+.chart-wrapper .drawer{ flex: 1; }
